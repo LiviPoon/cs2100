@@ -1,0 +1,1 @@
+mean: 77.443701 StandardDeviation: 10.020677
