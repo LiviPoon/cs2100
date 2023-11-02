@@ -1,3 +1,9 @@
+/* 
+Livi Poon
+CS2100 - Intermediate Programming
+Explanation: Truck Class has truck which has capacity and num axels and extends vehicle class.
+*/
+
 public class Truck extends Vehicle {
     
     private int capacity;
@@ -19,10 +25,6 @@ public class Truck extends Vehicle {
 
     public Truck(Person p, String mk, String mo, int yr, int mi, int cap, int numA){
         super(p,mk, mo, yr, mi);
-        setOwner(p);
-        setMake(mk);
-        setModel(mo);
-        setYear(yr);
         this.capacity = cap;
         this.numAxles = numA;
     }
@@ -39,11 +41,11 @@ public class Truck extends Vehicle {
      */
     public Truck(String name, String address, String phone, String mk, String mo, int yr, int mi){
         super(new Person(name, address, phone),mk, mo, yr, mi);
-        Person tmpPerson = new Person(name, address, phone);
-        setOwner(tmpPerson);
-        setMake(mk);
-        setModel(mo);
-        setYear(yr);
+        // Person tmpPerson = new Person(name, address, phone);
+        // setOwner(tmpPerson);
+        // setMake(mk);
+        // setModel(mo);
+        // setYear(yr);
         this.capacity = DEF_CAPACITY;
         this.numAxles = DEF_AXLES;
     }

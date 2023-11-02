@@ -1,3 +1,8 @@
+/* 
+Livi Poon
+CS2100 - Intermediate Programming
+Explanation: Vehicle class has owner, make, model, year, and miliage. It is also the super class of truck.
+*/
 
 public class Vehicle {
     //declare all private variables

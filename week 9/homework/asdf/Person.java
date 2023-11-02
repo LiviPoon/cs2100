@@ -1,3 +1,8 @@
+/* 
+Livi Poon
+CS2100 - Intermediate Programming
+Explanation: PErson Class has name address and phone
+*/
 
 public class Person {
 
