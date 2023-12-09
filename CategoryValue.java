@@ -1,4 +1,3 @@
-package yahtzee;
 
 /**
  A Collection of values. Each element in collection has a value and a name
